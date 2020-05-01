@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="cliApp"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\dependencies\;CMake Files\dependencies\curlpp\;CMake Files\dependencies\curlpp\extras\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/ayanrocks/code/c++/cliApp"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/ayanrocks/code/c++/cliApp/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ayanrocks/code/c++/cliApp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ayanrocks/code/c++/cliApp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ayanrocks/code/c++/cliApp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/ayanrocks/code/c++/cliApp"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/ayanrocks/code/c++/cliApp/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ayanrocks/code/c++/cliApp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ayanrocks/code/c++/cliApp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ayanrocks/code/c++/cliApp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/ayanrocks/code/c++/cliApp"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/ayanrocks/code/c++/cliApp/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ayanrocks/code/c++/cliApp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ayanrocks/code/c++/cliApp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ayanrocks/code/c++/cliApp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cliApp">
+				<Option output="/home/ayanrocks/code/c++/cliApp/bin/cliApp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ayanrocks/code/c++/cliApp/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/ayanrocks/code/c++/cliApp/dependencies/curlpp/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/ayanrocks/code/c++/cliApp/Makefile&quot;  VERBOSE=1 cliApp"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ayanrocks/code/c++/cliApp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ayanrocks/code/c++/cliApp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ayanrocks/code/c++/cliApp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cliApp/fast">
+				<Option output="/home/ayanrocks/code/c++/cliApp/bin/cliApp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ayanrocks/code/c++/cliApp/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/ayanrocks/code/c++/cliApp/dependencies/curlpp/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/ayanrocks/code/c++/cliApp/Makefile&quot;  VERBOSE=1 cliApp/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ayanrocks/code/c++/cliApp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ayanrocks/code/c++/cliApp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ayanrocks/code/c++/cliApp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/ayanrocks/code/c++/cliApp"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/ayanrocks/code/c++/cliApp/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ayanrocks/code/c++/cliApp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ayanrocks/code/c++/cliApp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ayanrocks/code/c++/cliApp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/ayanrocks/code/c++/cliApp"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/ayanrocks/code/c++/cliApp/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ayanrocks/code/c++/cliApp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ayanrocks/code/c++/cliApp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ayanrocks/code/c++/cliApp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/ayanrocks/code/c++/cliApp"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/ayanrocks/code/c++/cliApp/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ayanrocks/code/c++/cliApp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ayanrocks/code/c++/cliApp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ayanrocks/code/c++/cliApp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/ayanrocks/code/c++/cliApp"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/ayanrocks/code/c++/cliApp/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ayanrocks/code/c++/cliApp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ayanrocks/code/c++/cliApp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ayanrocks/code/c++/cliApp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="curlpp_static">
+				<Option output="/home/ayanrocks/code/c++/cliApp/dependencies/curlpp/libcurlpp.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ayanrocks/code/c++/cliApp/dependencies/curlpp"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/ayanrocks/code/c++/cliApp/dependencies/curlpp/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/ayanrocks/code/c++/cliApp/dependencies/curlpp/Makefile&quot;  VERBOSE=1 curlpp_static"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ayanrocks/code/c++/cliApp/dependencies/curlpp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ayanrocks/code/c++/cliApp/dependencies/curlpp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ayanrocks/code/c++/cliApp/dependencies/curlpp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="curlpp_static/fast">
+				<Option output="/home/ayanrocks/code/c++/cliApp/dependencies/curlpp/libcurlpp.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ayanrocks/code/c++/cliApp/dependencies/curlpp"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/ayanrocks/code/c++/cliApp/dependencies/curlpp/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/ayanrocks/code/c++/cliApp/dependencies/curlpp/Makefile&quot;  VERBOSE=1 curlpp_static/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ayanrocks/code/c++/cliApp/dependencies/curlpp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ayanrocks/code/c++/cliApp/dependencies/curlpp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ayanrocks/code/c++/cliApp/dependencies/curlpp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="curlpp">
+				<Option output="/home/ayanrocks/code/c++/cliApp/dependencies/curlpp/libcurlpp.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ayanrocks/code/c++/cliApp/dependencies/curlpp"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/ayanrocks/code/c++/cliApp/dependencies/curlpp/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/ayanrocks/code/c++/cliApp/dependencies/curlpp/Makefile&quot;  VERBOSE=1 curlpp"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ayanrocks/code/c++/cliApp/dependencies/curlpp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ayanrocks/code/c++/cliApp/dependencies/curlpp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ayanrocks/code/c++/cliApp/dependencies/curlpp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="curlpp/fast">
+				<Option output="/home/ayanrocks/code/c++/cliApp/dependencies/curlpp/libcurlpp.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ayanrocks/code/c++/cliApp/dependencies/curlpp"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/ayanrocks/code/c++/cliApp/dependencies/curlpp/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/ayanrocks/code/c++/cliApp/dependencies/curlpp/Makefile&quot;  VERBOSE=1 curlpp/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ayanrocks/code/c++/cliApp/dependencies/curlpp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ayanrocks/code/c++/cliApp/dependencies/curlpp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ayanrocks/code/c++/cliApp/dependencies/curlpp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/ayanrocks/code/c++/cliApp/dependencies/curlpp/include/curlpp/Easy.hpp">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="/home/ayanrocks/code/c++/cliApp/dependencies/curlpp/include/curlpp/Easy.inl">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="/home/ayanrocks/code/c++/cliApp/dependencies/curlpp/include/curlpp/Exception.hpp">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="/home/ayanrocks/code/c++/cliApp/dependencies/curlpp/include/curlpp/Form.hpp">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="/home/ayanrocks/code/c++/cliApp/dependencies/curlpp/include/curlpp/Info.hpp">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="/home/ayanrocks/code/c++/cliApp/dependencies/curlpp/include/curlpp/Info.inl">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="/home/ayanrocks/code/c++/cliApp/dependencies/curlpp/include/curlpp/Infos.hpp">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="/home/ayanrocks/code/c++/cliApp/dependencies/curlpp/include/curlpp/Multi.hpp">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="/home/ayanrocks/code/c++/cliApp/dependencies/curlpp/include/curlpp/Option.hpp">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="/home/ayanrocks/code/c++/cliApp/dependencies/curlpp/include/curlpp/Option.inl">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="/home/ayanrocks/code/c++/cliApp/dependencies/curlpp/include/curlpp/OptionBase.hpp">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="/home/ayanrocks/code/c++/cliApp/dependencies/curlpp/include/curlpp/Options.hpp">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="/home/ayanrocks/code/c++/cliApp/dependencies/curlpp/include/curlpp/Types.hpp">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="/home/ayanrocks/code/c++/cliApp/dependencies/curlpp/include/curlpp/cURLpp.hpp">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="/home/ayanrocks/code/c++/cliApp/dependencies/curlpp/include/curlpp/internal/CurlHandle.hpp">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="/home/ayanrocks/code/c++/cliApp/dependencies/curlpp/include/curlpp/internal/CurlHandle.inl">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="/home/ayanrocks/code/c++/cliApp/dependencies/curlpp/include/curlpp/internal/OptionContainer.hpp">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="/home/ayanrocks/code/c++/cliApp/dependencies/curlpp/include/curlpp/internal/OptionContainer.inl">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="/home/ayanrocks/code/c++/cliApp/dependencies/curlpp/include/curlpp/internal/OptionContainerType.hpp">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="/home/ayanrocks/code/c++/cliApp/dependencies/curlpp/include/curlpp/internal/OptionList.hpp">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="/home/ayanrocks/code/c++/cliApp/dependencies/curlpp/include/curlpp/internal/OptionSetter.hpp">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="/home/ayanrocks/code/c++/cliApp/dependencies/curlpp/include/curlpp/internal/OptionSetter.inl">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="/home/ayanrocks/code/c++/cliApp/dependencies/curlpp/include/curlpp/internal/SList.hpp">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="/home/ayanrocks/code/c++/cliApp/dependencies/curlpp/include/utilspp/EmptyType.hpp">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="/home/ayanrocks/code/c++/cliApp/dependencies/curlpp/include/utilspp/NonCopyable.hpp">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="/home/ayanrocks/code/c++/cliApp/dependencies/curlpp/include/utilspp/NullType.hpp">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="/home/ayanrocks/code/c++/cliApp/dependencies/curlpp/include/utilspp/SmartPtr.hpp">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="/home/ayanrocks/code/c++/cliApp/dependencies/curlpp/include/utilspp/ThreadingFactoryMutex.hpp">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="/home/ayanrocks/code/c++/cliApp/dependencies/curlpp/include/utilspp/ThreadingFactoryMutex.inl">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="/home/ayanrocks/code/c++/cliApp/dependencies/curlpp/include/utilspp/ThreadingSingle.hpp">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="/home/ayanrocks/code/c++/cliApp/dependencies/curlpp/include/utilspp/ThreadingSingle.inl">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="/home/ayanrocks/code/c++/cliApp/dependencies/curlpp/include/utilspp/TypeList.hpp">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="/home/ayanrocks/code/c++/cliApp/dependencies/curlpp/include/utilspp/TypeTrait.hpp">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="/home/ayanrocks/code/c++/cliApp/dependencies/curlpp/include/utilspp/clone_ptr.hpp">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="/home/ayanrocks/code/c++/cliApp/dependencies/curlpp/src/curlpp/Easy.cpp">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="/home/ayanrocks/code/c++/cliApp/dependencies/curlpp/src/curlpp/Exception.cpp">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="/home/ayanrocks/code/c++/cliApp/dependencies/curlpp/src/curlpp/Form.cpp">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="/home/ayanrocks/code/c++/cliApp/dependencies/curlpp/src/curlpp/Info.cpp">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="/home/ayanrocks/code/c++/cliApp/dependencies/curlpp/src/curlpp/Multi.cpp">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="/home/ayanrocks/code/c++/cliApp/dependencies/curlpp/src/curlpp/OptionBase.cpp">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="/home/ayanrocks/code/c++/cliApp/dependencies/curlpp/src/curlpp/Options.cpp">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="/home/ayanrocks/code/c++/cliApp/dependencies/curlpp/src/curlpp/cURLpp.cpp">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="/home/ayanrocks/code/c++/cliApp/dependencies/curlpp/src/curlpp/internal/CurlHandle.cpp">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="/home/ayanrocks/code/c++/cliApp/dependencies/curlpp/src/curlpp/internal/OptionList.cpp">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="/home/ayanrocks/code/c++/cliApp/dependencies/curlpp/src/curlpp/internal/OptionSetter.cpp">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="/home/ayanrocks/code/c++/cliApp/dependencies/curlpp/src/curlpp/internal/SList.cpp">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="/home/ayanrocks/code/c++/cliApp/main.cpp">
+			<Option target="cliApp"/>
+		</Unit>
+		<Unit filename="/home/ayanrocks/code/c++/cliApp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/ayanrocks/code/c++/cliApp/dependencies/curlpp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\dependencies\curlpp\"/>
+		</Unit>
+		<Unit filename="/home/ayanrocks/code/c++/cliApp/dependencies/curlpp/extras/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\dependencies\curlpp\extras\"/>
+		</Unit>
+		<Unit filename="/home/ayanrocks/code/c++/cliApp/dependencies/curlpp/extras/curlpp-config.in">
+			<Option virtualFolder="CMake Files\dependencies\curlpp\extras\"/>
+		</Unit>
+		<Unit filename="/home/ayanrocks/code/c++/cliApp/dependencies/curlpp/extras/curlpp.pc.in">
+			<Option virtualFolder="CMake Files\dependencies\curlpp\extras\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
